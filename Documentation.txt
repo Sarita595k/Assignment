@@ -1,0 +1,33 @@
+Project: Meera Industries Industrial Landing Page
+Developer: Sarita
+
+I built this landing page with a focus on "Industrial Premium" aesthetics.
+My main objective was to ensure that the technical data (like the pipe specs)
+was easy to read while maintaining a high-end visual feel.
+
+Technical Highlights:
+---------------------
+1. Responsive Architecture: 
+I used a Desktop-First approach. The layout is pixel-perfect at 1600px
+but uses relative units (rem/vh/vw) so that the design doesn't fall
+apart on 1440px or 1200px laptops.
+
+2. Interactive UX:
+- I implemented zoom on the main product image to show off material texture.
+- The Manufacturing Process section uses a tab-switching system to keep the page
+length manageable while still providing all the necessary info.
+- The FAQ section is built with a smooth CSS max-height transition for that "premium" feel.
+
+3. Code Cleanliness:
+I used CSS variables for the brand colors.
+This makes it incredibly easy to change the entire brand identity
+in about 5 seconds by just updating the :root values.
+
+4. Known Fixes:
+I noticed that on some wider screens, background images can cause
+horizontal scrollbars. I fixed this by using overflow-x: hidden on the body and
+ensuring all flex-items have a proper flex-shrink value.
+
+Instructions:
+Open index.html in any modern browser. FontAwesome is pulled
+from a CDN, so an internet connection is required to see the icons.
