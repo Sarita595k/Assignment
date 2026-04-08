@@ -2158,7 +2158,7 @@ body::before {
     opacity: 0.3;
     z-index: -1;
     pointer-events: none;
-    /* Allows you to click things through the overlay */
+    /* Allows  to click things through the overlay */
 }
 
 .footer-legal {
